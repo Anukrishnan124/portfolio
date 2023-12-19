@@ -1,0 +1,451 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.style1{
+  padding-left: 40px; 
+  padding-top: 20px;
+}
+.style2{
+  background-color:#d5c455 ; font-size: 22px; font-weight: bold;
+}
+.style3{
+  width: 200px; border-radius: 50%; 
+}
+header{
+  /* justify-content: center; */
+  text-align: left;
+  background-color: rgb(9, 9, 9);
+  height: 45px;
+}
+
+header h1{
+  padding-left: 69px;
+  color: white;
+}
+.row{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.col1{
+align-items: center;
+text-align: left;
+background-color: rgb(255, 255, 255);
+width: 20%;
+}
+.coll2{
+  width: 80%;
+  padding-left: 100px;
+  padding-top: 10px;
+  }
+  .coll2 img{
+  width: 800px;
+  height: 700px;
+  float: right;
+  
+  }
+  .col{
+    height: 700px;
+    width: 1000px;
+    background-color: #d5c455;
+  }
+.col2{
+width: 80%;
+padding-left: 100px;
+padding-top: 50px;
+}
+.col2 img{
+width: 800px;
+height: 700px;
+float: right;
+
+}
+.col2p{
+  font-size: 38px;
+  padding-top: 260px;
+  color: rgb(7, 7, 7);
+  float: left;
+}
+
+.col1 ul,li{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-decoration: none;
+  list-style: none;
+  padding-left: 35px;
+  padding-top:15px;
+  padding-bottom: 15px;
+}
+
+ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+form button{
+  margin-left:30px ;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+ul li:hover {
+  font-size: 20px;
+}
+
+.heading{
+  color: black;
+  font-size: 22px;
+  font-weight: bold;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.textcontainer{ 
+ padding-left: 80px;
+ padding-right: 80px;
+ padding-top: 50px;
+ padding-bottom: 50px;
+  width: 880px;
+  text-align: justify;
+  background-color: aliceblue;
+  border-radius: 14px;
+  box-shadow: 5px 5px 15px 0px;
+}
+.pcontent{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.achievementrow{
+  height: 600px;
+  width: 1000px;
+  padding-left: 0px;
+}
+
+.achievementcol{
+  height: 280px;
+  width: 300px;
+  background-color: rgb(191, 197, 202);
+  float: left;
+  margin: 15px;
+  background-color: aliceblue;
+  border-radius: 14px;
+  box-shadow: 2px 3px 10px 0px;
+}
+
+.achievementcol:hover{
+ background-color: rgb(249, 245, 245);
+}
+
+.achievementp{
+  text-align: center;
+  padding-top: 20px;
+  font-weight: bold;
+  font-size: 18.5px;
+  padding-bottom:25px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.achievementcontent{
+  padding-left: 20px;
+  padding-right: 20px;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+  text-align:justify ;
+}
+
+.mail{
+  padding: 10px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.mailhead{
+  padding-left: 10px;
+  padding-bottom: 15px;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.maildiv{
+  background-color: white;
+  width:720px;
+  padding: 22px;
+  border-radius: 8px;
+  box-shadow: 3px 3px 10px 0px;
+}
+.office{
+  margin-top: 25px;
+  background-color: white;
+  width:200px;
+  height: 170px;
+  padding: 22px;
+  border-radius: 8px;
+  box-shadow: 3px 3px 10px 0px;
+  float: left;
+}
+
+.locate{
+  margin-top: 25px;
+  margin-left: 25px;
+  float: left;
+  background-color: white;
+  width:450px;
+  height: 170px;
+  padding: 22px;
+  border-radius: 8px;
+  box-shadow: 3px 3px 10px 0px;
+}
+
+.locatediv{
+  width: 780px;
+  height: 500px;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+.img1{
+  height: 280px;
+  width: 300px;
+  margin: 15px;
+  border-radius: 8px;
+  box-shadow: 3px 3px 10px 0px;
+
+}
+
+/* responsive page */
+
+@media screen and (max-width:400px) {
+  body{
+    height: 605px;
+    width: 390px;
+    padding: 5px;
+    text-align: left;
+    background-color: black;
+  }
+  header{
+    /* justify-content: center; */
+    text-align: left;
+    background-color: rgb(9, 9, 9);
+    height: 30px;
+  }
+  
+  header h1{
+    padding-left: 25px;
+    color: white;
+    /* font-weight:100; */
+    font-size:24px;
+  }
+  .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .col{
+    height: auto;
+    width: 300px;
+    background-color: #d5c455;
+  }
+  .col1{
+  /* margin-left: -105px; */
+  text-align: left;
+  background-color: rgb(255, 255, 255);
+  width: 100px;
+  float: top;
+  }
+  .coll2{
+    width: 300px;
+    padding-left: 0px;
+    padding-top: 0px;
+    margin-right: -105px;
+    /* float: right; */
+    }
+    .coll2 img{
+    width: 450px;
+    height: 366px;
+    float:right;
+    padding-top: 20.5px;
+    /* padding-bottom: 0px; */
+    
+    }
+  .col2{
+  width: 300px;
+  /* padding-left: 100px; */
+  padding-top: 0px;
+  }
+  /* .col2 img{
+   width: 800px; 
+  height: 700px;
+  float: right;
+   */
+  
+  .col2p{
+    font-size: 26px;
+    padding-top: 160px;
+    padding-left: 15px;
+    color: rgb(7, 7, 7);
+    float: left;
+  }
+  
+  .col1 ul,li{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    font-size: 12px;
+    list-style: none;
+    padding-left: 5px;
+    padding-top:15px;
+    padding-bottom: 15px;
+  }
+  
+  ul li a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  form button{
+    margin-left:30px ;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  
+  ul li:hover {
+    font-size: 10px;
+  }
+  .heading{
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .textcontainer{ 
+   padding-left: 80px;
+   padding-right: 80px;
+   padding-top: 50px;
+   padding-bottom: 50px;
+    width: 180px;
+    text-align: justify;
+    background-color: aliceblue;
+    border-radius: 14px;
+    box-shadow: 5px 5px 15px 0px;
+  }
+  .pcontent{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .achievementrow{
+    height: 600px;
+    width: 200px;
+    padding-left: 0px;
+  }
+  
+  .achievementcol{
+    height: 280px;
+    width: 100px;
+    background-color: rgb(191, 197, 202);
+    float: left;
+    margin: 15px;
+    background-color: aliceblue;
+    border-radius: 14px;
+    box-shadow: 2px 3px 10px 0px;
+  }
+  
+  .achievementcol:hover{
+   background-color: rgb(249, 245, 245);
+  }
+  
+  .achievementp{
+    text-align: center;
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 18.5px;
+    padding-bottom:25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+  }
+  
+  .achievementcontent{
+    padding-left: 20px;
+    padding-right: 20px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    text-align:justify ;
+  }
+  
+  .mail{
+    padding: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .mailhead{
+    padding-left: 10px;
+    padding-bottom: 15px;
+    font-weight: bold;
+    font-size: 22px;
+  }
+  
+  .maildiv{
+    background-color: white;
+    width:720px;
+    padding: 22px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 10px 0px;
+  }
+  .office{
+    margin-top: 25px;
+    background-color: white;
+    width:200px;
+    height: 170px;
+    padding: 22px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 10px 0px;
+    float: left;
+  }
+  
+  .locate{
+    margin-top: 25px;
+    margin-left: 25px;
+    float: left;
+    background-color: white;
+    width:450px;
+    height: 170px;
+    padding: 22px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 10px 0px;
+  }
+  
+  .locatediv{
+    width: 780px;
+    height: 500px;
+    padding-left: 15px;
+    padding-top: 15px;
+  }
+  
+  .img1{
+    height: 280px;
+    width: 300px;
+    margin: 15px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 10px 0px;
+  
+  }
+  .style1{
+    padding-left: 5px; 
+    padding-top: 20px;
+  }
+  .style2{
+    background-color:#d5c455 ; font-size: 22px; font-weight: bold;
+  }
+  .style3{
+    padding-left: 0px;
+    width: 90px; border-radius: 50%; 
+  }
+
+}
+
+
